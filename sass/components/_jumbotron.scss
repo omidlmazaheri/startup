@@ -1,0 +1,6 @@
+@use '../base' as *;
+.jumbotron{
+    a{
+        @include  buttons(black, white, 200px);
+    }
+}

@@ -1,0 +1,40 @@
+// Theme selector: 'dark' or 'light'
+$theme: light;
+$border-radius: 8px;
+
+$fontname: 'Raleway';
+$fontsize: (
+  original:16px,
+  menu:15px,
+  h1:36px,
+  para:15px,
+  para-subtitle:18px,
+  hero-cta:18px,
+  fa-superhero:18px,
+  h3:24px
+);
+
+
+// Define color palettes
+$light-theme: (
+  bg: #ffffff,
+  menu-theme: #333,
+  text: #212529,
+  primary: #0d6efd,
+  secondary: #11bb11,
+  text-white:#f2f2f2,
+  pricing-action: #ddd,
+  card: #f8f9fa
+);
+
+$dark-theme: (
+  bg: #121212,
+  menu-theme: #333,
+
+  text: #f8f9fa,
+  primary: #0d6efd,
+  secondary: #11bb11,
+  text-white:#f2f2f2,
+
+  card: #1e1e1e
+);

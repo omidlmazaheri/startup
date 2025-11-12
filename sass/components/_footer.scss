@@ -1,0 +1,13 @@
+@use '../base' as *;
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: color-shade(theme-color(bg),20%);
+  a#totop{
+    @include buttons(theme-color(bg),theme-color(text) , 150px);
+    &:hover{
+      background-color: color-shade(theme-color(bg),10%);
+    }
+  }
+}

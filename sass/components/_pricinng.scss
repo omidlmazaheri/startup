@@ -1,0 +1,26 @@
+@use '../base' as *;
+.pricing{
+    background-color: #616161;
+    color: theme-color(text-white) ;
+    padding: 36px;
+    section.pro{
+        margin-top: -20px; 
+    }
+    a{
+        @include buttons(black, white, 100px);
+        margin: 0 auto;
+    }
+
+}
+.pricingcard{
+    background-color: theme-color(bg);
+}
+.fetures{
+    color: theme-color(text);
+}
+
+.pricingaction{
+    background-color: theme-color(pricing-action);
+    padding: 30px;
+}
+

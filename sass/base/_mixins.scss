@@ -1,0 +1,13 @@
+@mixin transition($property, $time: 0.3s) {
+  transition: $property $time ease;
+}
+
+@mixin buttons($bgcolor, $color, $width) {
+  display: block;
+  padding: 1rem;
+  width: $width;
+  background-color: $bgcolor;
+  color: $color;
+  text-decoration: none;
+  text-align: center;
+}

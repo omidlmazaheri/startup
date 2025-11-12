@@ -1,0 +1,186 @@
+#promot {
+  background: #11bb11;
+  padding: 5px;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(178.5, 178.5, 178.5);
+  padding: 60px;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+/* Top navigation bar */
+.navbar {
+  display: flex;
+}
+.navbar a {
+  font-size: 15px;
+}
+
+div.carousel div.carousel-inner div.carousel-item div.carousel-caption h1 {
+  font-size: 36px;
+}
+div.carousel div.carousel-inner div.carousel-item div.carousel-caption p {
+  font-size: 15px;
+}
+div.carousel div.carousel-inner div.carousel-item div.carousel-caption a {
+  font-size: 18px;
+  display: block;
+  padding: 1rem;
+  width: 300px;
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #f2f2f2;
+  text-decoration: none;
+  text-align: center;
+}
+div.carousel div.carousel-inner div.carousel-item div.carousel-caption a:hover {
+  background-color: rgba(100, 100, 100, 0.6);
+}
+
+#fa-slider {
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+#fa-slider i {
+  font-size: 18px !important;
+}
+
+/* Change color on hover */
+#aboutus h3 {
+  font-size: 24px;
+}
+#aboutus .p-subtitle {
+  font-size: 18px;
+}
+#aboutus i.fa {
+  font-size: 60px;
+}
+
+.jumbotron a {
+  display: block;
+  padding: 1rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+form a#sendmsg {
+  display: block;
+  padding: 1rem;
+  width: 250px;
+  background-color: #333333;
+  color: #f2f2f2;
+  text-decoration: none;
+  text-align: center;
+}
+form a#sendmsg:hover {
+  background-color: rgb(25.5, 25.5, 25.5);
+}
+
+.pricing {
+  background-color: #616161;
+  color: #f2f2f2;
+  padding: 36px;
+}
+.pricing section.pro {
+  margin-top: -20px;
+}
+.pricing a {
+  display: block;
+  padding: 1rem;
+  width: 100px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pricingcard {
+  background-color: #ffffff;
+}
+
+.fetures {
+  color: #212529;
+}
+
+.pricingaction {
+  background-color: #ddd;
+  padding: 30px;
+}
+
+.team a {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .container, .navbar {
+    flex-direction: column;
+  }
+}
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #cccccc;
+}
+footer a#totop {
+  display: block;
+  padding: 1rem;
+  width: 150px;
+  background-color: #ffffff;
+  color: #212529;
+  text-decoration: none;
+  text-align: center;
+}
+footer a#totop:hover {
+  background-color: rgb(229.5, 229.5, 229.5);
+}
+
+.card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #212529;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.card h3 {
+  margin-top: 0;
+  color: #0d6efd;
+}
+.card p {
+  line-height: 1.7;
+}
+
+* {
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background: #ffffff;
+  color: #212529;
+}
+
+h1 {
+  text-align: center;
+  color: #f2f2f2;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,10 @@
+
+@use '../base' as *;
+form {
+    a#sendmsg{
+        @include buttons(color-shade(theme-color(bg), 80%), theme-color(text-white), 250px);
+        &:hover{
+            background-color: color-shade(theme-color(bg), 90%);
+        }
+    }
+}

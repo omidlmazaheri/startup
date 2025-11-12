@@ -1,0 +1,78 @@
+@use '../base' as *;
+
+#promot {
+    background: theme-color(secondary);
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    background-color: color-shade(theme-color(bg), 30%);
+    padding: 60px;
+    text-align: center;
+    color: theme-color(text-white);
+}
+
+/* Top navigation bar */
+.navbar {
+    display: flex;
+    a{
+        font-size: map-get($fontsize , menu )
+    }
+    // background-color: theme-color(menu-theme );
+
+    // a {
+    //     color: theme-color(text-white);
+    //     padding: 14px 20px;
+    //     text-decoration: none;
+    //     text-align: center;
+
+    //     &:hover {
+    //         background-color: color-shade( theme-color(bg), 70%) ;
+    //         color: theme-color(text-white);
+    //     }
+    // }
+
+}
+div.carousel{
+    div.carousel-inner{
+        div.carousel-item{
+            div.carousel-caption{
+                h1{
+                    font-size: map-get($fontsize , h1 )
+                }
+                p{
+                    font-size: map-get($fontsize , para )
+                }
+                a{
+                    font-size: map-get($fontsize , hero-cta );
+                    @include buttons(rgba(100,100,100,.4 ), theme-color(text-white), 300px);
+                    &:hover{
+                        background-color: rgba(100,100,100,.6 );
+                    }
+                }
+            }
+        }
+    }
+}
+#fa-slider{
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    i{
+    font-size: map-get($fontsize , fa-superhero )!important; 
+
+    }
+}
+
+
+
+/* Change color on hover */
+// .navbar a:hover {}
+// .carousel-caption{
+//     // background-color: rgba(200,200,200,.5);
+// }
+// .carousel-caption{
+//     a{
+//        @include  buttons(#a2a2a2,black,350px);
+//     }
+// }
