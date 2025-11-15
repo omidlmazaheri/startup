@@ -1,0 +1,17 @@
+@use "../base" as *;
+
+#ourskills {
+    h3 {
+        font-size: map-get($fontsize , h3);
+
+    }
+
+    p {
+        font-size: map-get($fontsize , para);
+
+    }
+    i.fa{
+        font-size: map-get($fontsize , para);
+    }
+
+}

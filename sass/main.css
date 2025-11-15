@@ -20,7 +20,7 @@ header {
 }
 
 div.carousel div.carousel-inner div.carousel-item div.carousel-caption h1 {
-  font-size: 36px;
+  font-size: 64px;
 }
 div.carousel div.carousel-inner div.carousel-item div.carousel-caption p {
   font-size: 15px;
@@ -51,13 +51,25 @@ div.carousel div.carousel-inner div.carousel-item div.carousel-caption a:hover {
 #aboutus h3 {
   font-size: 24px;
 }
-#aboutus .p-subtitle {
+#aboutus .aboutus p.p-subtitle {
   font-size: 18px;
 }
-#aboutus i.fa {
-  font-size: 60px;
+#aboutus .aboutus i.fa {
+  font-size: 64px;
+}
+#aboutus .aboutus p.fa-subtitle {
+  font-size: 18px;
+}
+#aboutus .aboutus p.p-about {
+  font-size: 15px;
 }
 
+.jumbotron h3 {
+  font-size: 24px;
+}
+.jumbotron p {
+  font-size: 15px;
+}
 .jumbotron a {
   display: block;
   padding: 1rem;
@@ -66,6 +78,31 @@ div.carousel div.carousel-inner div.carousel-item div.carousel-caption a:hover {
   color: white;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
+}
+
+.static .numbers {
+  font-size: 36px;
+}
+.static p {
+  font-size: 15px;
+}
+
+#ourworks h3 {
+  font-size: 24px;
+}
+#ourworks p.p-subtitle {
+  font-size: 18px;
+}
+
+#ourskills h3 {
+  font-size: 24px;
+}
+#ourskills p {
+  font-size: 15px;
+}
+#ourskills i.fa {
+  font-size: 15px;
 }
 
 form a#sendmsg {
@@ -113,6 +150,15 @@ form a#sendmsg:hover {
   padding: 30px;
 }
 
+.team h3 {
+  font-size: 24px;
+}
+.team p {
+  font-size: 15px;
+}
+.team p.p-subtitle {
+  font-size: 18px;
+}
 .team a {
   display: block;
   padding: 1rem;
@@ -122,6 +168,7 @@ form a#sendmsg:hover {
   text-decoration: none;
   text-align: center;
   margin-bottom: 0.5rem;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 700px) {

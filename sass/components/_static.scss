@@ -1,0 +1,10 @@
+@use '../base' as *;
+.static{
+    .numbers{
+        font-size: map-get($fontsize , numbers );
+    }
+    p{
+                font-size: map-get($fontsize , para );
+
+    }
+}

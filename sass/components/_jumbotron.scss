@@ -1,6 +1,13 @@
 @use '../base' as *;
 .jumbotron{
+    h3{
+        font-size: map-get($fontsize , h3);
+    }
+    p{
+        font-size: map-get($fontsize, para);
+    }
     a{
         @include  buttons(black, white, 200px);
+        font-size: map-get($fontsize , para );
     }
 }

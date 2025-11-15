@@ -1,7 +1,18 @@
 @use '../base' as *; 
 .team{
+    h3{
+        font-size: map-get($fontsize, h3 )
+    }
+    p{
+        font-size: map-get($fontsize , para );
+    }
+    p.p-subtitle{
+        font-size: map-get($fontsize ,para-subtitle )
+    }
+    
     a{
         @include buttons(#f1f1f1,black,100%);
         margin-bottom: .5rem ;
+        font-size: map-get($fontsize , para );
     }
 }

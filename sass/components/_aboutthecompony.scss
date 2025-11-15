@@ -1,13 +1,26 @@
 @use "../base" as *;
- #aboutus {
-    h3{
-        font-size: map-get($fontsize , h3 );
+
+#aboutus {
+    h3 {
+        font-size: map-get($fontsize , h3);
     }
-    .p-subtitle{
-        font-size: map-get($fontsize, para-subtitle );
-    }
-     i.fa {
-            font-size: 60px;
+
+    .aboutus {
+        p.p-subtitle {
+            font-size: map-get($fontsize, para-subtitle);
+        }
+
+        i.fa {
+            font-size: map-get($fontsize, fa-about);
 
         }
- }
+        p.fa-subtitle{
+            font-size: map-get($fontsize , fa-subtitle );
+        }
+        p.p-about{
+            font-size: map-get($fontsize , para);
+        }
+    }
+
+
+}

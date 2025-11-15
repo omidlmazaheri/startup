@@ -1,0 +1,9 @@
+@use '../base' as *;
+#ourworks{
+    h3{
+        font-size: map-get($fontsize , h3 );
+    }
+    p.p-subtitle{
+        font-size: map-get($fontsize , para-subtitle );
+    }
+}
