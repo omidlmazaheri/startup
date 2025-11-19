@@ -1,26 +1,58 @@
 @use '../base' as *;
-.pricing{
+
+.pricing {
     background-color: #616161;
-    color: theme-color(text-white) ;
+    color: theme-color(text-white);
     padding: 36px;
-    section.pro{
-        margin-top: -20px; 
+
+    h3 {
+        font-size: map-get($fontsize , h3);
     }
-    a{
+
+    div.fetures {
+        p {
+            font-size: map-get($fontsize , para);
+
+        }
+        p.cost{
+                        font-size: map-get($fontsize , cost);
+
+        }
+    }
+
+    p.p-subtitle {
+        font-size: map-get($fontsize , para-subtitle);
+    }
+
+    p.pricingcard {
+        h3 {
+            font-size: map-get($fontsize , h3);
+
+        }
+    }
+
+    section.pro {
+        margin-top: -20px;
+    }
+
+    a {
         @include buttons(black, white, 100px);
         margin: 0 auto;
+        font-size: map-get($fontsize , para);
+
     }
 
 }
-.pricingcard{
+
+.pricingcard {
     background-color: theme-color(bg);
 }
-.fetures{
+
+.fetures {
     color: theme-color(text);
 }
 
-.pricingaction{
+.pricingaction {
     background-color: theme-color(pricing-action);
     padding: 30px;
 }
-

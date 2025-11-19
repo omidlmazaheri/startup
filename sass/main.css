@@ -105,6 +105,25 @@ div.carousel div.carousel-inner div.carousel-item div.carousel-caption a:hover {
   font-size: 15px;
 }
 
+.contact h3 {
+  font-size: 24px !important;
+}
+.contact p.p-subtitle {
+  font-size: 18px !important;
+}
+.contact i.fa {
+  font-size: 36px;
+}
+.contact span {
+  font-size: 15px;
+}
+
+form div input {
+  font-size: 15px !important;
+}
+form div textarea {
+  font-size: 15px !important;
+}
 form a#sendmsg {
   display: block;
   padding: 1rem;
@@ -113,6 +132,10 @@ form a#sendmsg {
   color: #f2f2f2;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
+}
+form a#sendmsg i.fa {
+  font-size: 15px;
 }
 form a#sendmsg:hover {
   background-color: rgb(25.5, 25.5, 25.5);
@@ -122,6 +145,21 @@ form a#sendmsg:hover {
   background-color: #616161;
   color: #f2f2f2;
   padding: 36px;
+}
+.pricing h3 {
+  font-size: 24px;
+}
+.pricing div.fetures p {
+  font-size: 15px;
+}
+.pricing div.fetures p.cost {
+  font-size: 30px;
+}
+.pricing p.p-subtitle {
+  font-size: 18px;
+}
+.pricing p.pricingcard h3 {
+  font-size: 24px;
 }
 .pricing section.pro {
   margin-top: -20px;
@@ -135,6 +173,7 @@ form a#sendmsg:hover {
   text-decoration: none;
   text-align: center;
   margin: 0 auto;
+  font-size: 15px;
 }
 
 .pricingcard {
@@ -190,9 +229,19 @@ footer a#totop {
   color: #212529;
   text-decoration: none;
   text-align: center;
+  font-size: 15px;
 }
 footer a#totop:hover {
   background-color: rgb(229.5, 229.5, 229.5);
+}
+footer section div i.fa {
+  font-size: 24px;
+}
+footer section p {
+  font-size: 15px;
+}
+footer section p a {
+  font-size: 15px;
 }
 
 .card {

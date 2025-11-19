@@ -1,9 +1,47 @@
-
 @use '../base' as *;
+
+.contact {
+    h3 {
+        font-size: map-get($fontsize , h3) !important;
+
+    }
+
+    p.p-subtitle {
+        font-size: map-get($fontsize , para-subtitle) !important;
+    }
+
+    i.fa {
+        font-size: map-get($fontsize , fa-subtitle) * 2;
+    }
+
+    span {
+        font-size: map-get($fontsize , para)
+    }
+
+}
+
 form {
-    a#sendmsg{
+    div {
+        input  {
+            font-size: map-get($fontsize , para)!important ;
+
+        }
+        textarea{
+                        font-size: map-get($fontsize , para)!important ;
+
+        }
+    }
+
+
+
+    a#sendmsg {
         @include buttons(color-shade(theme-color(bg), 80%), theme-color(text-white), 250px);
-        &:hover{
+         font-size: map-get($fontsize , para);
+        i.fa{
+             font-size: map-get($fontsize , para);
+        }
+
+        &:hover {
             background-color: color-shade(theme-color(bg), 90%);
         }
     }

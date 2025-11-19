@@ -1,13 +1,36 @@
 @use '../base' as *;
+
 /* Footer */
 footer {
   padding: 20px;
   text-align: center;
-  background: color-shade(theme-color(bg),20%);
-  a#totop{
-    @include buttons(theme-color(bg),theme-color(text) , 150px);
-    &:hover{
-      background-color: color-shade(theme-color(bg),10%);
+  background: color-shade(theme-color(bg), 20%);
+
+  a#totop {
+    @include buttons(theme-color(bg), theme-color(text), 150px);
+    font-size: map-get($fontsize , para);
+
+    &:hover {
+      background-color: color-shade(theme-color(bg), 10%);
+    }
+  }
+
+  section {
+    div {
+      i.fa {
+        font-size: map-get($fontsize , fa-footer);
+
+      }
+    }
+
+    p {
+      font-size: map-get($fontsize , para);
+
+      a {
+        font-size: map-get($fontsize , para);
+
+      }
+
     }
   }
 }
